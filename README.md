@@ -1,0 +1,3 @@
+- This is my repo to store solutions of Hacker Rank challenges
+- I have no intention to document or follow best practices in these codes, just code as quick and simplest as possible
+- Feel free to correct my solutions or suggest any improvements
