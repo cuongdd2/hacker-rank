@@ -15,26 +15,26 @@ public class Day1 {
             x[i] = scan.nextInt();
         }
         Arrays.sort(x);
-        System.out.println(g1(x));
-        System.out.println(g2(x));
-        System.out.println(g3(x));
+        System.out.println(q1(x));
+        System.out.println(q2(x));
+        System.out.println(q3(x));
     }
 
 
-    static int g1(int[] x) {
+    static int q1(int[] x) {
         int n = x.length;
         int l = n / 2;
         if (l % 2 == 1) return x[l / 2];
         else return (x[l/2] + x[(l - 1)/2]) / 2;
     }
 
-    static int g2(int[] x) {
+    static int q2(int[] x) {
         int n = x.length;
         if (n % 2 == 1) return x[n / 2];
         else return (x[n>>1] + x[(n - 1)>>1]) / 2;
     }
 
-    static int g3(int[] x) {
+    static int q3(int[] x) {
         int n = x.length / 2;
         int h = (x.length + 1) / 2;
 
