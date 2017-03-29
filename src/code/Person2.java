@@ -3,10 +3,10 @@ package code;
 /**
  * Created by cuongdd2@gmail.com on 18-Mar-17.
  */
-public class Person {
+public class Person2 {
     private int age;
 
-    public Person(int initialAge) {
+    public Person2(int initialAge) {
         if (initialAge >= 0) this.age = initialAge;
         else {
             this.age = 0;
