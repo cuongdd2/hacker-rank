@@ -20,9 +20,9 @@ class Difference {
             if (max < elements[i]) max = elements[i];
             if (min > elements[i]) min = elements[i];
         }
+
         maximumDifference = max - min;
     }
-
 }
 
 class Solution14 {
